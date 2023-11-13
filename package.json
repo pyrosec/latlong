@@ -1,0 +1,24 @@
+{
+  "name": "latlong",
+  "version": "0.1.0",
+  "description": "CLI tool to query coordinates from an address",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "latlong": "./bin/latlong.js"
+  },
+  "main": "lib/index.js",
+  "repository": "https://github.com/pyrosec/latlong",
+  "author": "pyrosec",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nice-repl": "^0.1.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
